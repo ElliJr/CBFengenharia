@@ -210,6 +210,9 @@ h5{
 .ebf000, h3{
     background-color: rgba(0, 0, 0, 0.363);
 }
+.text{
+    padding: 20px;
+}
 .carousel { 
     position: relative;
     width: 80%;
