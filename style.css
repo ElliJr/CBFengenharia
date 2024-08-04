@@ -26,6 +26,13 @@ a{
     height: 180px;
     border-radius: 12px;
 }
+img{
+    width: 2px;
+}
+.icone{
+    width: 23px; 
+    height: 20px;
+}
 .separar{
     padding: 5px;
     margin: 7px;
@@ -85,11 +92,6 @@ color: rgb(255, 255, 255);
 .cbf111, .cbf222{
     display: inline-flex;
 }
-.cbf111{}
-.cbf222{
-    padding: 12px;
-}
-
 .lugarh3{
     padding: 12px;
     background-color: #ebe4e483;
@@ -386,19 +388,26 @@ footer{
     flex-wrap: wrap;
 }
 
-@media (max-width: 373px) {
-    .img-Logo{
-        width: 360px;
+@media (max-width: 900px) 
+{
+    .imagem-cliente{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 600px){
+    .links{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
     }
 }
 
 @media (max-width: 471px)
 {
-    .links{
-        visibility: hidden;
-    }
-    .menu-btn{
-        display: block;
+    img{
+        width: 100px;
     }
     .seçãoImagem{
         flex-direction: column;
@@ -408,10 +417,6 @@ footer{
 }
 .imagem-negocios{
     width: 400px;
-}
-.imagem-cliente{
-    flex-wrap: wrap
-    ;
 }
 .img{
     width:250px;
