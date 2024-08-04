@@ -15,7 +15,7 @@
 body{
 }
 .topo{
-    background-color: rgb(85, 80, 80);
+    background-color: rgb(0, 0, 0);
 }
 a{
     text-decoration: none;
@@ -27,12 +27,14 @@ a{
     border-radius: 12px;
 }
 .separar{
+    padding: 5px;
     margin: 7px;
+    border-radius: 12px;
     transition: 0.5s;
 }
 .separar:hover{
     transition: 0.5s;
-    box-shadow: 0px 3px 10px 1px black;
+    box-shadow: 0px 3px 10px 1px rgb(255, 255, 255);
     border: 12px;
 }
 a{
@@ -76,10 +78,16 @@ color: rgb(255, 255, 255);
     align-items: center center;
 }
 .imagem-cliente{
-    background-color: red;
     padding: 20px;
     margin: 12px;
+    display: flex;
+}
+.cbf111, .cbf222{
     display: inline-flex;
+}
+.cbf111{}
+.cbf222{
+    padding: 12px;
 }
 
 .lugarh3{
@@ -88,17 +96,23 @@ color: rgb(255, 255, 255);
 }
 .imagem-negocios{
     border-radius: 12px;
+    left: 10px;
 }
 h3{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
+    text-align: center;
 }
 h2{
     font-family: 'Archivo Black';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
+    text-align: center;
+}
+h4{
+    text-align: center;
 }
 .links{
     margin: 8px;
@@ -119,17 +133,13 @@ h2{
     background-attachment: fixed;
 }
 .transparente, h2{
-    background-f;
+: 12px;
+    backdrop-filter: blur(8px);
 }
 .h1{
+    text-align: center;
     padding-top: 40px;
     padding-bottom: 20px;
-}
-.divisao{
-    border: 1px solid blue;
-    width: 1200px;
-    position: relative;
-    top: 70px;
 }
 .imagens{
     margin-bottom: 90px;
@@ -187,22 +197,25 @@ article{
 
 }
 h5{
-    color: white;
+    color:black;
 }
 .ebf000{
-    padding: 12px;
+    background-image: url("https://s5.static.brasilescola.uol.com.br/vestibular/conteudo/images/engenheiro.jpg");
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position: center top;
+    background-attachment: fixed;
+    padding: 120px;
 }
-.sobreOCarousel{
-    background-color: black;
-    padding: 20px;
+.ebf000, h3{
+    background-color: rgba(0, 0, 0, 0.363);
 }
-.carousel {
-    
+.carousel { 
     position: relative;
     width: 80%;
     max-width: 800px;
     margin: auto;
-    padding-top: 12px;
+    padding: 20px;
     overflow: hidden;
     border-radius: 12px;
 }
@@ -391,9 +404,17 @@ footer{
         flex-direction: column;
     }
 .divisao{
-    width: auto;
+    width: 200px;
 }
 .imagem-negocios{
-    width: 300px;
+    width: 400px;
+}
+.imagem-cliente{
+    flex-wrap: wrap
+    ;
+}
+.img{
+    width:250px;
+    height: 250px;
 }
 }
