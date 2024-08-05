@@ -290,7 +290,6 @@ position: fixed;
 bottom: 0;
 right: 0;
 margin: 10px;
-border-radius: 10px;
 }
 .juntarOrçamento{
     display: flex;
@@ -301,6 +300,8 @@ border-radius: 10px;
     
 }
 .h4{
+    position: relative;
+    top: -50px;
     color: black;
 }
 @keyframes slide {
@@ -471,5 +472,19 @@ footer{
 }
 .envolver-carusel-h4{
     flex-wrap: wrap;
+}
+.juntarOrçamento{
+    height: 20px;
+}
+.h4{
+    display: none;
+}
+.imgOrçamento{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -20px;
+    left: -4px;
+    margin: auto;
 }
 }
