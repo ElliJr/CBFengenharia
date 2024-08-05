@@ -85,6 +85,7 @@ color: rgb(255, 255, 255);
     padding: 20px;
     margin: 12px;
     display: flex;
+    background-color: #2b28288f;
 }
 .cbf111, .cbf222{
     display: inline-flex;
@@ -127,7 +128,7 @@ h4{
     background-image: url("https://www.cimentoitambe.com.br/wp-content/uploads/2024/04/engenharia-1-1.jpg");
     background-repeat: no-repeat;
     background-size: 1400px;
-    background-position: center bottom;
+    background-position: center left;
     background-attachment: fixed;
 }
 .transparente, h2{
@@ -151,8 +152,7 @@ h4{
     height: 390px;
     box-shadow: 0px 3px 10px 6px rgb(255, 255, 255);
 }
-
-
+    
 .seçãoImagem, .img{
     border-radius: 100%;
 }
@@ -183,7 +183,6 @@ h4{
     font-weight: 700;
     font-style: normal;
     color: white;
-    background-color: #2b2828;
 }
 .subH1{
     font-family: "Kanit", sans-serif;
@@ -251,10 +250,16 @@ h5{
   font-style: normal;
 }
 .envolver-carusel-h4{
+    background-color: dimgrey;
     display: flex;
 }
 .text{
-    padding: 20px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.text, h4{
+  padding-top: 60px;  
 }
 .carousel {
     width: 100%;
@@ -280,7 +285,7 @@ h5{
     display: block;
 }
 .orçamento{
-background-color: #2b2828;
+backdrop-filter: blur(4px);
 position: fixed;
 bottom: 0;
 right: 0;
@@ -290,6 +295,13 @@ border-radius: 10px;
 .juntarOrçamento{
     display: flex;
     right: 2px;
+}
+.juntarOrçamento, h4{
+    font-size: 20px;
+    
+}
+.h4{
+    color: black;
 }
 @keyframes slide {
     0% {
