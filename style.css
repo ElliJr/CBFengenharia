@@ -168,7 +168,8 @@ h4{
     border-radius: 12px;
 }
 .areaTexto{
-    background-image: url("https://i.pinimg.com/originals/09/25/8a/09258abd9f08d89235666af18de0af2f.gif");
+    background-image url("https://i.pinimg.com/originals/09/25/8a/09258abd9f08d89235666af18de0af2f.gif");
+    background-color: black;
     background-repeat:no-repeat;
     background-size: 1400px;
     background-position: center;
