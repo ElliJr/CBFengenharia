@@ -223,9 +223,6 @@ h5{
 .ebf000, h3{
     background-color: rgba(0, 0, 0, 0.363);
 }
-.text{
-    padding: 20px;
-}
 .carousel { 
     position: relative;
     width: 80%;
@@ -246,21 +243,23 @@ h5{
     border-radius: 12px 12px 0 0;
 }
 .textoObras, h1{
-  font-family: "Lato", sans-serif;
-  font-weight: 600;
-  font-style: normal;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 .envolver-carusel-h4{
     background-color: dimgrey;
     display: flex;
 }
 .text{
-    padding: 8px;
+    padding: 20px;
     justify-content: center;
     align-items: center;
 }
+.text{
+}
 .text, h4{
-  padding-top: 60px;  
+    padding-top: 60px;  
 }
 .carousel {
     width: 100%;
@@ -300,7 +299,7 @@ margin: 10px;
     font-size: 20px;
     
 }
-.h4{
+h4{
     position: relative;
     top: -50px;
     color: black;
@@ -442,6 +441,16 @@ footer{
     .imagem-cliente{
         flex-wrap: wrap;
     }
+    .img-logo{
+        width: 350px;
+        height: 79px;
+    }
+    .ebf000{
+        padding: 30px;
+    }
+    .transparente{
+        padding: 50px;
+    }
 }
 
 @media (max-width: 700px){
@@ -465,7 +474,7 @@ footer{
     width: 200px;
 }
 .imagem-negocios{
-    width: 400px;
+    width: 300px;
 }
 .img{
     width:250px;
@@ -488,4 +497,8 @@ footer{
     left: -4px;
     margin: auto;
 }
+}
+.assinatura{
+    justify-content: center;
+    align-items: center;
 }
