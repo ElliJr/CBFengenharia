@@ -132,6 +132,7 @@ h4{
 }
 .transparente, h2{
     backdrop-filter: blur(8px);
+    color: rgb(0, 62, 143);
 }
 .h1{
     text-align: center;
@@ -400,7 +401,8 @@ font-size: 14px;
 .menu-btn{
     display: none;
     left: 0;
-    font-size: 20px;
+    font-size: 30px;
+    text-align: center;
     transform: rotateY(-50%);
     background-color: #333;
     color: aliceblue;
@@ -408,9 +410,10 @@ font-size: 14px;
     cursor: pointer;
 }
 .menu-btn2{
-    font-size: 40px;
+    font-size: 45px;
+    text-align: end;
     background-color: #333;
-    color: aliceblue;
+    color: rgba(2, 0, 99, 0.918);
     padding: 10px 20px;
     cursor: pointer;
 }
@@ -436,7 +439,7 @@ footer{
     flex-wrap: wrap;
 }
 
-@media (max-width: 900px) 
+@media (max-width: 1000px) 
 {
     .imagem-cliente{
         flex-wrap: wrap;
