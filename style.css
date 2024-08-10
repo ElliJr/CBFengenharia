@@ -455,9 +455,6 @@ footer{
     .transparente{
         padding: 50px;
     }
-    .junto1{
-        flex-wrap: wrap;
-    }
 }
 
 @media (max-width: 700px){
@@ -508,4 +505,9 @@ footer{
 .assinatura{
     justify-content: center;
     align-items: center;
+}
+@media (max-width: 506px) {
+    .junto1{
+        flex-wrap: wrap;
+    }
 }
