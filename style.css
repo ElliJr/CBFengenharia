@@ -405,8 +405,8 @@ font-size: 14px;
     font-size: 30px;
     text-align: center;
     transform: rotateY(-50%);
-    background-color: #333;
-    color: aliceblue;
+    background-color: black;
+    color: blue;
     padding: 10px 20px;
     cursor: pointer;
 }
@@ -506,8 +506,9 @@ footer{
     justify-content: center;
     align-items: center;
 }
-@media (max-width: 506px) {
+@media (max-width: 590px) {
     .junto1{
         flex-wrap: wrap;
-    }
+        flex-direction: row;
+    }   
 }
