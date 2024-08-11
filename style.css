@@ -4,116 +4,144 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Honk:MORF@0..45&family=Kalnia+Glaze:wght@100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Platypi:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.efeito-txt-animado{
+
+.efeito-txt-animado {
     visibility: hidden;
 }
-body{
-}
-.topo{
+
+body {}
+
+.topo {
     background-color: rgb(0, 0, 0);
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
-.img-logo{
+
+.img-logo {
     width: 530px;
     height: 180px;
     border-radius: 12px;
 }
-.icone{
-    width: 23px; 
+
+.icone {
+    width: 23px;
     height: 20px;
 }
-.separar{
+
+.separar {
     padding: 5px;
     margin: 7px;
     border-radius: 12px;
     transition: 0.5s;
 }
-.separar:hover{
+
+.separar:hover {
     transition: 0.5s;
     box-shadow: 0px 3px 10px 1px rgb(255, 255, 255);
     border: 12px;
 }
-a{
+
+a {
     color: rgb(255, 255, 255);
 }
-.junto1{
+
+.junto1 {
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: end;
 }
-.junto1, h3{
-color: rgb(255, 255, 255);
+
+.junto1,
+h3 {
+    color: rgb(255, 255, 255);
 }
-.img-Logo{
-    width: 200px; height: 54px;
-}  
-.junto{
+
+.img-Logo {
+    width: 200px;
+    height: 54px;
+}
+
+.junto {
     flex-flow: wrap;
     justify-content: center;
     position: relative;
     margin: auto;
     display: inline-flex;
 }
+
 .junto a {
     color: rgb(0, 0, 0);
 }
-.distanciaArea{
+
+.distanciaArea {
     border: 2px solid rgb(30, 11, 196);
     height: 170px;
 }
-.areaD{
+
+.areaD {
     margin: 5px;
 }
-.distanciamento{
+
+.distanciamento {
     margin-right: 6px;
 }
-.dentro{
+
+.dentro {
     justify-content: center;
     align-items: center center;
 }
-.imagem-cliente{
+
+.imagem-cliente {
     padding: 20px;
     margin: 12px;
     display: flex;
     background-color: #2b28288f;
 }
-.cbf111, .cbf222{
+
+.cbf111,
+.cbf222 {
     display: inline-flex;
 }
-.lugarh3{
+
+.lugarh3 {
     padding: 12px;
     background-color: #ebe4e483;
 }
-.imagem-negocios{
+
+.imagem-negocios {
     border-radius: 12px;
     left: 10px;
 }
-h3{
+
+h3 {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
     text-align: center;
 }
-h2{
+
+h2 {
     font-family: 'Archivo Black';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
     text-align: center;
 }
-h4{
+
+h4 {
     text-align: center;
 }
-.links{
+
+.links {
     margin: 8px;
     padding: 12px;
     display: flex;
@@ -122,7 +150,7 @@ h4{
     align-items: end;
 }
 
-.transparente{
+.transparente {
     padding: 100px;
     background-image: url("https://www.cimentoitambe.com.br/wp-content/uploads/2024/04/engenharia-1-1.jpg");
     background-repeat: no-repeat;
@@ -130,90 +158,110 @@ h4{
     background-position: center left;
     background-attachment: fixed;
 }
-.transparente, h2{
+
+.transparente,
+h2 {
     backdrop-filter: blur(8px);
     color: rgb(0, 62, 143);
 }
-.h1{
+
+.h1 {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 20px;
 }
-.imagens{
+
+.imagens {
     margin-bottom: 90px;
     padding: 30px;
     backdrop-filter: blur(8px);
 }
-.img{
- transition: 1s;
+
+.img {
+    transition: 1s;
 }
-.img:hover{
+
+.img:hover {
     width: 370px;
     height: 370px;
     box-shadow: 0px 3px 10px 6px rgb(255, 255, 255);
     margin-left: 4px;
 }
-    
-.seçãoImagem, .img{
+
+.seçãoImagem,
+.img {
     border-radius: 100%;
 }
-.textoDoMeio{
+
+.textoDoMeio {
     padding: 50px;
     margin: 20px;
 }
-.seçãoImagem{
+
+.seçãoImagem {
     display: flex;
     justify-content: space-evenly;
 }
-.omg{
+
+.omg {
     border-radius: 12px;
 }
-.areaTexto{
+
+.areaTexto {
     background-image url("https://i.pinimg.com/originals/09/25/8a/09258abd9f08d89235666af18de0af2f.gif");
     background-color: black;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: 1400px;
     background-position: center;
     background-attachment: fixed;
 }
-.areaTexto, h1{
+
+.areaTexto,
+h1 {
     justify-content: center;
     text-align: center;
 }
-.subh1{
+
+.subh1 {
     font-family: "Kanit", sans-serif;
     font-weight: 700;
     font-style: normal;
     color: white;
 }
-.subH1{
+
+.subH1 {
     font-family: "Kanit", sans-serif;
     font-weight: 700;
     font-style: normal;
     color: white;
 }
-.ebf333{
+
+.ebf333 {
     background-image: url("https://img.freepik.com/fotos-gratis/silhuetas-do-local-de-construcao_1127-3253.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1722556800&semt=sph");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 1400px;
     background-attachment: fixed;
 }
-article{
+
+article {
     background-image: url("");
     margin: 12px;
-    padding-bottom:200px;
+    padding-bottom: 200px;
 }
-.conteudo{
+
+.conteudo {
     margin: 30px;
     padding: 12px;
     justify-content: center;
     align-items: center;
 }
-h5{
-    color:black;
+
+h5 {
+    color: black;
 }
-.ebf000{
+
+.ebf000 {
     background-image: url("https://s5.static.brasilescola.uol.com.br/vestibular/conteudo/images/engenheiro.jpg");
     background-repeat: no-repeat;
     background-size: 1200px;
@@ -221,47 +269,59 @@ h5{
     background-attachment: fixed;
     padding: 120px;
 }
-.ebf000, h3{
+
+.ebf000,
+h3 {
     background-color: rgba(0, 0, 0, 0.363);
 }
-.carousel { 
+
+.carousel {
     position: relative;
     width: 80%;
     max-width: 400px;
     margin: auto;
     padding: 20px;
     overflow: hidden;
-    
+
 }
-.imgTranslate{
+
+.imgTranslate {
     width: 30px;
     border-radius: 12px;
 }
+
 .textoObras {
     padding: 14px;
     padding-bottom: 17px;
     background-color: white;
     border-radius: 12px 12px 0 0;
 }
-.textoObras, h1{
+
+.textoObras,
+h1 {
     font-family: "Lato", sans-serif;
     font-weight: 600;
     font-style: normal;
 }
-.envolver-carusel-h4{
+
+.envolver-carusel-h4 {
     background-color: dimgrey;
     display: flex;
 }
-.text{
+
+.text {
     padding: 20px;
     justify-content: center;
     align-items: center;
 }
-.text{
+
+.text {}
+
+.text,
+h4 {
+    padding-top: 60px;
 }
-.text, h4{
-    padding-top: 60px;  
-}
+
 .carousel {
     width: 100%;
     overflow: hidden;
@@ -285,46 +345,57 @@ h5{
     height: auto;
     display: block;
 }
-.orçamento{
-backdrop-filter: blur(4px);
-position: fixed;
-bottom: 0;
-right: 0;
-margin: 10px;
+
+.orçamento {
+    backdrop-filter: blur(4px);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
 }
-.juntarOrçamento{
+
+.juntarOrçamento {
     display: flex;
     right: 2px;
 }
-.juntarOrçamento, h4{
+
+.juntarOrçamento,
+h4 {
     font-size: 20px;
-    
+
 }
-h4{
+
+h4 {
     position: relative;
     top: -50px;
     color: black;
 }
+
 @keyframes slide {
     0% {
         transform: translateX(0);
     }
+
     33% {
         transform: translateX(-33.33%);
     }
+
     66% {
         transform: translateX(-66.66%);
     }
+
     100% {
         transform: translateX(0);
     }
 }
-.areaDeContato{
+
+.areaDeContato {
     padding: 30px;
     margin: 20px;
     background-color: grey;
 }
-.box{
+
+.box {
     position: relative;
     top: 190px;
     left: 15%;
@@ -335,71 +406,85 @@ h4{
     width: 27%;
     color: white;
 }
-fieldset{
+
+fieldset {
     border: 3px solid blue;
     padding: 6px;
 }
-legend{
+
+legend {
     border: 1px solid dodgerblue;
     padding: 10px;
     text-align: center;
     background-color: dodgerblue;
     border-radius: 8px;
 }
-.inputBox{
+
+.inputBox {
     position: relative;
 }
-.inputUser{
-background: none;
-border: none;
-border-bottom: 1px solid white;
-outline: none;
-color: white;
-font-size: 15px;
-width: 100%;
-letter-spacing: 2px;
-cursor: pointer;
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+    cursor: pointer;
 }
-.labelInput{
+
+.labelInput {
     position: absolute;
     top: 0;
     left: 0;
     pointer-events: none;
     transition: .5s;
 }
-.inputUser:focus ~ .labelInput, .inputUser:valid ~ .labelInput{
-top: -20px;
-font-size: 14px;
+
+.inputUser:focus~.labelInput,
+.inputUser:valid~.labelInput {
+    top: -20px;
+    font-size: 14px;
 }
-#submit{
+
+#submit {
     cursor: pointer;
 }
-#data_nascimento{
+
+#data_nascimento {
     border: none;
     padding: 10px;
     border-radius: 10px;
     outline: none;
 }
-#submit{
+
+#submit {
     width: 100%;
     border: none;
     padding: 15px;
     transition: 1s;
     border-radius: 12px;
 }
-#submit:hover{
+
+#submit:hover {
     transition: 1s;
     background-color: aqua;
 }
-#texto{
-    color: white    ;
+
+#texto {
+    color: white;
 }
+
 /*area do menu */
 
 .container {
     position: relative;
 }
-.menu-btn{
+
+.menu-btn {
     display: none;
     left: 0;
     font-size: 30px;
@@ -410,7 +495,8 @@ font-size: 14px;
     padding: 10px 20px;
     cursor: pointer;
 }
-.menu-btn2{
+
+.menu-btn2 {
     font-size: 45px;
     text-align: end;
     background-color: #333;
@@ -418,7 +504,8 @@ font-size: 14px;
     padding: 10px 20px;
     cursor: pointer;
 }
-.menu{
+
+.menu {
     position: fixed;
     z-index: 2;
     transition: 1s;
@@ -429,13 +516,14 @@ font-size: 14px;
     background-color: #5e58586b;
     backdrop-filter: blur(9px);
 }
+
 /*final do menu*/
 
 /*comentario*/
 .comment-section {
     width: 100%;
     max-width: 600px;
-    
+
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -447,7 +535,7 @@ font-size: 14px;
 
 .comment-list {
     margin-bottom: 20px;
-    
+
 }
 
 .comment {
@@ -484,23 +572,28 @@ font-size: 14px;
 #submit-comment:hover {
     background-color: #0056b3;
 }
+
 /*final do comentario*/
-.areaJunta{
+.areaJunta {
     background-color: #333;
     display: flex;
     justify-content: space-between;
 }
-.contato, .contato-section{
+
+.areaContato{
     margin: 12px;
 }
+.junto{
+    padding: 5px;
+}
 
-.cnt{
+.cnt {
     justify-content: center;
     align-items: ;
 }
 
 
-@media (max-width: 480px) {
+ @media (max-width: 480px) {
     .comment-section {
         padding: 10px;
     }
@@ -509,85 +602,103 @@ font-size: 14px;
         width: 100%;
     }
 }
+
 /* footer*/
-footer{
+footer {
     margin: 20px;
     padding: 30px;
 }
-.assinatura{
+
+.assinatura {
     display: flex;
     flex-wrap: wrap;
 }
 
-@media (max-width: 1000px) 
-{
-    .imagem-cliente{
+@media (max-width: 1000px) {
+    .imagem-cliente {
         flex-wrap: wrap;
     }
-    .img-logo{
+
+    .img-logo {
         width: 350px;
         height: 79px;
     }
-    .ebf000{
+
+    .ebf000 {
         padding: 30px;
     }
-    .transparente{
+
+    .transparente {
         padding: 50px;
     }
 }
 
-@media (max-width: 700px){
-    .links{
+@media (max-width: 700px) {
+    .links {
         display: none;
     }
-    .menu-btn{
+
+    .menu-btn {
         display: block;
     }
 }
 
-@media (max-width: 540px)
-{
-    img{
+@media (max-width: 540px) {
+    .areaJunta {
+        flex-wrap: wrap;
+    }
+
+    img {
         width: 100px;
     }
-    .seçãoImagem{
+
+    .seçãoImagem {
         flex-direction: column;
     }
-.divisao{
-    width: 200px;
+
+    .divisao {
+        width: 200px;
+    }
+
+    .imagem-negocios {
+        width: 300px;
+    }
+
+    .img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .envolver-carusel-h4 {
+        flex-wrap: wrap;
+    }
+
+    .juntarOrçamento {
+        height: 20px;
+    }
+
+    .h4 {
+        display: none;
+    }
+
+    .imgOrçamento {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        top: -20px;
+        left: -4px;
+        margin: auto;
+    }
 }
-.imagem-negocios{
-    width: 300px;
-}
-.img{
-    width:250px;
-    height: 250px;
-}
-.envolver-carusel-h4{
-    flex-wrap: wrap;
-}
-.juntarOrçamento{
-    height: 20px;
-}
-.h4{
-    display: none;
-}
-.imgOrçamento{
-    width: 40px;
-    height: 40px;
-    position: relative;
-    top: -20px;
-    left: -4px;
-    margin: auto;
-}
-}
-.assinatura{
+
+.assinatura {
     justify-content: center;
     align-items: center;
 }
+
 @media (max-width: 590px) {
-    .junto1{
+    .junto1 {
         flex-wrap: wrap;
         flex-direction: row;
-    }   
+    }
 }
