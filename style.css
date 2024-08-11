@@ -630,7 +630,7 @@ footer {
     flex-wrap: wrap;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1030px) {
     .imagem-cliente {
         flex-wrap: wrap;
     }
@@ -662,7 +662,8 @@ footer {
     }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 540px) 
+{
     .areaJunta {
         flex-wrap: wrap;
     }
@@ -713,7 +714,7 @@ footer {
     justify-content: center;
     align-items: center;
 }
-@media (max-width: 590px) {
+@media (max-width: 600px) {
     .junto {
         display: none;
     }
