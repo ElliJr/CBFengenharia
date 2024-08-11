@@ -109,11 +109,11 @@ h3 {
     margin: 12px;
     display: flex;
     background-color: #2b28288f;
-}
-
-.cbf111,
-.cbf222 {
     display: inline-flex;
+}
+.h3{
+    justify-content: center;
+    align-items: center;
 }
 
 .lugarh3 {
@@ -155,14 +155,28 @@ h4 {
 }
 
 .transparente{
-    padding: 100px;
+    padding: 70px;
     background-image: url("https://www.cimentoitambe.com.br/wp-content/uploads/2024/04/engenharia-1-1.jpg");
     background-repeat: no-repeat;
     background-size: 1400px;
     background-position: center left;
     background-attachment: fixed;
 }
-
+.transparente-section{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid blue;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.transparente-color{
+    background-color: rgba(128, 128, 128, 0.493);
+    border-radius: 12px;
+    padding: 12px;
+}
  h2{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -649,7 +663,9 @@ footer {
     .areaJunta {
         flex-wrap: wrap;
     }
-
+    .transparente-section{
+        flex-wrap: wrap;
+    }
     img {
         width: 100px;
     }
