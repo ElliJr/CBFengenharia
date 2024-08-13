@@ -166,7 +166,7 @@ h2 {
     display: flex;
     border: 1px solid blue;
 }
-.textoDoSection, p{
+p{
     border: 1px solid blue;
     margin: 12px;
 }
