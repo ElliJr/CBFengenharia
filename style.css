@@ -141,9 +141,7 @@ h2 {
     text-align: center;
 }
 
-h4 {
-    text-align: center;
-}
+
 
 .links {
     margin: 8px;
@@ -158,14 +156,37 @@ h4 {
     padding: 70px;
     background-image: url("https://www.cimentoitambe.com.br/wp-content/uploads/2024/04/engenharia-1-1.jpg");
     background-repeat: no-repeat;
-    background-size: 1400px;
-    background-position: center left;
+    background-size: 1390px;
+    background-position: center center;
     background-attachment: fixed;
 }
 .transparente-section{
+    background-color: rgba(240, 248, 255, 0.527);
     text-align: center;
     display: flex;
     border: 1px solid blue;
+}
+.textoDoSection, p{
+    border: 1px solid blue;
+    margin: 12px;
+}
+
+.icones{
+    background-color: rgba(255, 255, 255, 0.507);
+    margin: 12px;
+    padding: 12px;
+    height: 50px;
+    border-radius: 12px;
+    transition: 1s;
+    display: flex;
+}
+.icones:hover{
+    transition: 1s;
+    background-color: #001bb3b4;
+}
+.icon{
+    justify-content: center;
+    align-items: center;
 }
 p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -231,8 +252,7 @@ p{
     background-attachment: fixed;
 }
 
-.areaTexto,
-h1 {
+.areaTexto,h1 {
     justify-content: center;
     text-align: center;
 }
@@ -324,16 +344,13 @@ h1 {
     display: flex;
 }
 
-.text {
+.text{
     padding: 20px;
     justify-content: center;
     align-items: center;
 }
 
-.text {}
-
-.text,
-h4 {
+.h4 {
     padding-top: 60px;
 }
 
@@ -379,13 +396,6 @@ h4 {
     font-size: 20px;
 
 }
-
-h4 {
-    position: relative;
-    top: -50px;
-    color: black;
-}
-
 @keyframes slide {
     0% {
         transform: translateX(0);
@@ -663,6 +673,13 @@ footer {
 
 @media (max-width: 540px) 
 {
+    .icones{
+        display: flex;
+    }
+    .icon{
+        width: 40px;
+        height: 40px;
+    }
     .areaJunta {
         flex-wrap: wrap;
     }
