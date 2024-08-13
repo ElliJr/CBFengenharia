@@ -165,7 +165,6 @@ h4 {
 .transparente-section{
     text-align: center;
     display: flex;
-    justify-content: space-between;
     border: 1px solid blue;
 }
 p{
