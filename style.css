@@ -154,9 +154,9 @@ h2 {
 
 .transparente{
     padding: 70px;
-    background-image: url("https://www.cimentoitambe.com.br/wp-content/uploads/2024/04/engenharia-1-1.jpg");
+    background-image: url("https://unicv.edu.br/wp-content/uploads/2023/06/engenharia_civil_grad_ead-580x385.jpg");
     background-repeat: no-repeat;
-    background-size: 1390px;
+    background-size: 1380px;
     background-position: center center;
     background-attachment: fixed;
 }
@@ -420,21 +420,18 @@ h4 {
     }
 }
 
-.areaDeContato {
-    padding: 30px;
-    margin: 20px;
-    background-color: grey;
-}
 .contato{
-    background-color: red;
     margin: 12px;
     padding-left: 600px;
-    align-items: center;
 }
-.textDeContanto{
-    background-color: blue;
-    justify-content: center;
-    align-items: center;
+.textDeContato{
+    background-color: blue; 
+    width: 400px;
+    height: 200px;
+    padding: 30px;
+    border-radius: 12px;
+    position: relative;
+    left: -300px;
 }
 .box {
     position: relative;
@@ -646,10 +643,6 @@ legend {
 }
 
 /* footer*/
-footer {
-    margin: 20px;
-    padding: 30px;
-}
 
 .assinatura {
     display: flex;
@@ -663,9 +656,18 @@ scroll-behavior: smooth;
     font-size: 15px;
 }
 .button{
-    width: 100px;
+    width: 10   0px;
     border: none;
     border-radius: 12px;
+}
+.creditos{
+    background-color: #333;
+}
+footer{
+    background-color: #333;
+}
+.logoCriador{
+    border-radius: 400px 12px 400px 12px;
 }
 @media (max-width: 1030px) {
     .imagem-cliente {
@@ -696,6 +698,10 @@ scroll-behavior: smooth;
 
     .menu-btn {
         display: block;
+    }
+    .textDeContato{
+        position: relative;
+        left: -550px;
     }
 }
 
