@@ -26,7 +26,7 @@ body {}
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);    
 }
 
 .img-logo {
@@ -170,9 +170,11 @@ h2 {
 .textSection{
     
 }
-p{
+.p{
     border: 1px solid blue;
-    margin: 12px;
+    border-radius: 12px;
+    margin: 14px;
+    padding: 6px;
 }
 
 .icones{
@@ -423,7 +425,17 @@ h4 {
     margin: 20px;
     background-color: grey;
 }
-
+.contato{
+    background-color: red;
+    margin: 12px;
+    padding-left: 600px;
+    align-items: center;
+}
+.textDeContanto{
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+}
 .box {
     position: relative;
     top: 190px;
@@ -612,6 +624,7 @@ legend {
 .areaContato{
     margin: 12px;
 }
+
 .junto{
     padding: 5px;
 }
@@ -642,7 +655,18 @@ footer {
     display: flex;
     flex-wrap: wrap;
 }
-
+.back-to-top{
+scroll-behavior: smooth;
+}
+.a{
+    color: black;
+    font-size: 15px;
+}
+.button{
+    width: 100px;
+    border: none;
+    border-radius: 12px;
+}
 @media (max-width: 1030px) {
     .imagem-cliente {
         flex-wrap: wrap;
