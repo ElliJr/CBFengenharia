@@ -678,10 +678,6 @@ footer{
     .imagem-cliente {
         flex-wrap: wrap;
     }
-    .icones{
-        position: relative;
-        left: 350px;
-    }
     .final{
         flex-wrap: wrap;
     }
