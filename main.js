@@ -9,6 +9,7 @@ function toggleMenu() {
   }
 }
 
+
 // area das imagems
 document.addEventListener('DOMContentLoaded', () => {
   const carouselInner = document.querySelector('.carousel-inner');
@@ -21,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     carouselInner.style.transform = `translateX(-${currentIndex * 100}%)`;
   }, 5000); // Muda a imagem a cada 5 segundos
 });
+
 
 //comentario
 // Função para carregar os comentários do localStorage
