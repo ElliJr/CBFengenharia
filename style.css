@@ -179,7 +179,7 @@ h2 {
 .icones:hover{
     transition: 1s;
     background-color: #001bb3b4;
-}
+}   
 .icon{
     justify-content: center;
     align-items: center;
@@ -333,7 +333,7 @@ h1 {
 
 .h4 {
     padding-top: 60px;
-    color: wheat;
+    color: rgb(255, 255, 255);
 }
 
 .carousel {
@@ -376,7 +376,6 @@ h1 {
 .juntarOrçamento,
 h4 {
     font-size: 20px;
-
 }
 @keyframes slide {
     0% {
@@ -589,7 +588,7 @@ legend {
 
 /*final do comentario*/
 .areaJunta {
-    background-color: #ffffff;
+    background-color: #000000;
     display: flex;
     justify-content: space-between;
     padding-bottom: 40px;
@@ -608,12 +607,17 @@ main{
 span{
     position: relative;
     left: 60px;
+    color: white;
+}
+.h44{
+    color: #ccc;
+    padding-bottom: 30px;
 }
 .menu-serviços-conteiner{
     flex-direction: column-reverse;
 }
 .p2{
-    color: #000000;
+    color: #ffffff;
     padding-top: 15px;
     width: 300px;
     text-align: center;
@@ -670,11 +674,17 @@ footer{
     position: relative;
     top: 10px;
 }
-@media (max-width: 1030px) {
+@media (max-width: 1025px) {
     .imagem-cliente {
         flex-wrap: wrap;
     }
-
+    .icones{
+        position: relative;
+        left: 350px;
+    }
+    .final{
+        flex-wrap: wrap;
+    }
     .img-logo {
         width: 350px;
         height: 79px;
