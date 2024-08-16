@@ -589,11 +589,13 @@ legend {
 
 /*final do comentario*/
 .areaJunta {
-    background-color: #000000;
+    background-color: #9c8b8b;
     display: flex;
     justify-content: space-between;
 }
-
+.p2{
+    color: #000000;
+}
 .areaContato{
     margin: 12px;
 }
@@ -637,7 +639,10 @@ legend {
     background-color: #333;
 }
 footer{
-    background-color: #333;
+    background-color: #000000;
+}
+.h11{
+    color: rgb(14, 18, 247);
 }
 .logoCriador{
     position: relative;
