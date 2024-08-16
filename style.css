@@ -589,12 +589,34 @@ legend {
 
 /*final do comentario*/
 .areaJunta {
-    background-color: #9c8b8b;
+    background-color: #ffffff;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 40px;
+}
+.final{
+    padding: 20px;
+    display: flex;
+}
+.logo-final{
+    margin: 12px;
+}
+main{
+    margin: 10px;
+    justify-content: center;
+}
+span{
+    position: relative;
+    left: 60px;
+}
+.menu-serviços-conteiner{
+    flex-direction: column-reverse;
 }
 .p2{
     color: #000000;
+    padding-top: 15px;
+    width: 300px;
+    text-align: center;
 }
 .areaContato{
     margin: 12px;
@@ -746,8 +768,6 @@ footer{
 .assinatura {
     justify-content: center;
     align-items: center;
-    margin: 12px;
-    padding: 12px;
 }
 @media (max-width: 600px) {
     .junto {
