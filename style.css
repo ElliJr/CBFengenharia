@@ -605,6 +605,7 @@ legend {
     flex-direction: column;
 }
 .p2{
+    padding: 8px;
     text-align: end;
     position: relative;
     left: 17px;
@@ -613,6 +614,7 @@ main{
     margin: 10px;
     display: flex;
     flex-direction: row;
+    justify-content: ;
 }
 .info-da-empresa{
     margin: 50px;
@@ -628,12 +630,19 @@ span{
 .h44{
     color: #ccc;
     padding-bottom: 10px;
+    transition: 1s;
+}
+.h44:hover{
+    transition: 1s;
+    position: relative;
+    left: 9px;
 }
 .menu-serviços-conteiner{
-    flex-direction: column-reverse;
+    margin: 12px;
 }
 .info-da-empresa{
     margin: 12px;
+    padding: auto;
 }
 .p2{
     color: #ffffff;
