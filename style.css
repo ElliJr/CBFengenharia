@@ -630,12 +630,15 @@ span{
 .h44{
     color: #ccc;
     padding-bottom: 10px;
-    transition: 1s;
 }
-.h44:hover{
-    transition: 1s;
-    position: relative;
-    left: 9px;
+.h441{
+    color: #ccc;
+    padding-bottom: 10px;
+}
+.h441:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #133b66;
 }
 .menu-serviços-conteiner{
     margin: 12px;
