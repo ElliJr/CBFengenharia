@@ -200,16 +200,6 @@ p{
     backdrop-filter: blur(8px);
 }
 
-.img {
-    transition: 1s;
-}
-
-.img:hover {    
-    width: 370px;
-    height: 370px;
-    box-shadow: 0px 3px 10px 6px rgb(255, 255, 255);
-    margin-left: 4px;
-}
 .seçãoImagem,.img {
     border-radius: 100%;
 }
@@ -599,8 +589,10 @@ legend {
     display: flex;
 }
 .img-logo-final{
-    width: 160px;
-    height: 160px;
+        justify-content: center;
+        align-items: center;
+        width: 160px;
+        height: 160px;
 }
 .logo-final{
     margin: 12px;
@@ -634,7 +626,7 @@ span{
     color: white;
 }
 .h44{
-    color: #fffdfd;
+    color:  #fffdfd;
     padding-bottom: 10px;
 }
 .h441{
