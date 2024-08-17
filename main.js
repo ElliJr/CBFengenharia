@@ -8,7 +8,10 @@ function toggleMenu() {
     menu.style.left = '-400px'
   }
 }
-
+//codigo orçamento
+function orçamento(){
+  alert("Solicitando Orçamento")
+}
 
 // area das imagems
 document.addEventListener('DOMContentLoaded', () => {

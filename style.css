@@ -204,15 +204,13 @@ p{
     transition: 1s;
 }
 
-.img:hover {
+.img:hover {    
     width: 370px;
     height: 370px;
     box-shadow: 0px 3px 10px 6px rgb(255, 255, 255);
     margin-left: 4px;
 }
-
-.seçãoImagem,
-.img {
+.seçãoImagem,.img {
     border-radius: 100%;
 }
 
@@ -251,7 +249,6 @@ p{
     background-color: grey;
     border-radius: 12px;
 }
-
 .ebf333 {
     background-color: #000000;
 }
@@ -637,7 +634,7 @@ span{
     color: white;
 }
 .h44{
-    color: #000000;
+    color: #fffdfd;
     padding-bottom: 10px;
 }
 .h441{
