@@ -170,7 +170,7 @@ h2 {
     margin: 12px;
     padding: 12px;
     height: 50px;
-    border-radius: 12px;
+    border-radius: 10px;
     transition: 1s;
     display: flex;
     justify-content: center;
