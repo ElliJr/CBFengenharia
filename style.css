@@ -20,7 +20,7 @@ body {
     color: #fff;
     padding: 10px 0;
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
 }
 
@@ -42,6 +42,7 @@ a:hover{
 }
 
 .navbar-item {
+    justify-content: space-around;
     margin-left: 20px;
     display: flex;
     align-items: center;
