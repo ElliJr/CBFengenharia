@@ -15,7 +15,7 @@
     <header>
         <nav class="navbar">
             <div class="container">
-                <a href="index.html">
+                <a href="https://ellijr.github.io/CBFeng">
                     <img src="logo-imagem/Logo-Do-Projeto.png" alt="CBFengenharia Logo" class="logo">
                 </a>
                 <div class="navbar-content">
@@ -102,24 +102,14 @@
                 <div class="container-contato">
                     <div class="form-section">
                         <h2>SOLICITE SEU ORÇAMENTO</h2>
-                        <form>
-                            <input type="text" placeholder="Nome" required>
-                            <input type="text" placeholder="(DDD) Telefone/WhatsApp" required>
-                            <input type="email" placeholder="E-mail" required>
-                            <input type="text" placeholder="Cidade onde será a obra" required>
-            
-                            <p>QUAL PROJETO VOCÊ PRECISA?</p>
-                            <div class="checkbox-group">
-                                <p>Qual projeto você está precisando?</p>
-                                <h4>(Projeto arquitetonico e Direção tecnica na obra, Cálculo Estrutural)</h4>
-                                <label><input type="checkbox" required><P> PA</P></label>
-                                <label><input type="checkbox" required> <P>DT</P></label>
-                                <label><input type="checkbox" required> <P>CE</P></label>
-                                <label><input type="checkbox" required> <P>TODOS</P></label>
-                            </div>
-            
-                            <textarea placeholder="Digite sua mensagem (opcional)"></textarea>
-                            <button type="submit" >Enviar</button>
+                        <form action="envia_fale.php" method="post" name="form">
+                            <input type="text" placeholder="Nome" name="nome" required>
+                            <input type="text" placeholder="(DDD) Telefone/WhatsApp" name="telefone" required>
+                            <input type="email" placeholder="E-mail" name="email" required>
+                            <input type="text" placeholder="Cidade onde será a obra" name="cidadeObra" required>
+                            <input type="text" placeholder="Deixe uma mensagem(opcional)" name="deixarMensagem">
+                            <a href="mailto:christopher.bfs@hotmail.com.br"><input type="submit" name="submit"
+                                value="submit" class="submit"></a>
                         </form>
                     </div>
             
@@ -127,10 +117,10 @@
                         <h2>CONTATOS</h2>
                         <p>FALE COM A NOSSA EQUIPE</p>
                         <p>Para qualquer dúvida ou informação adicional sobre nossos serviços, entre em contato conosco através do formulário ou pelos nossos contatos disponíveis. Teremos o prazer em atendê-lo.</p>
-                        <button class="whatsapp-button">💬 MAIS INFORMAÇÕES</button>
+                        <a href="mailto:christopher.bfs@hotmail.com.br?subject=Olá quero solicitar um orçamento"><button class="whatsapp-button">💬 SOLICITR UM ORÇAMENTO </button></a>
                         <div class="area-mensagem">
                             <p>📞 (11) 96912-6857</p>
-                            <p>📷 @CBFengenharia</p>
+                            <a href="https://www.instagram.com/cbfengenharia/" target="_blank"><p>@CBFengenharia</p></a>
                         </div>
                     </div>
                 </div>    
@@ -138,7 +128,8 @@
         </div>
         <div class="assinatura-cont">
             <div class="assinatura">
-                <img src="Logo_cridor_site/Assinatura.png" alt="assinatura do criador do site">
+                <h4>Site desenvolvido por </h4>
+                <a href="https://ellijr.github.io/portifolio/" target="_blank"><img src="Logo_cridor_site/Assinatura-preta.png" alt="assinatura do criador do site"></a>
             </div>
         </div>
     </footer>

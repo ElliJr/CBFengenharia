@@ -9,9 +9,6 @@ function toggleMenu() {
   }
 }
 //codigo orçamento
-function orçamento(){
-  alert("Solicitando Orçamento")
-}
 
 // area das imagems
 const carousel = document.querySelector('.carousel');
@@ -39,12 +36,4 @@ prevBtn.addEventListener('click', () => {
         carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
     }
 });
-//final co carrosel
 
-
-
-//contato-cormulario
-document.querySelector('form').addEventListener('submit', function(event) {
-  event.preventDefault();
-  alert('Formulário enviado!');
-});

@@ -27,6 +27,8 @@ body {
 .navbar .logo {
     max-height: 50px;
 }
+
+
 a{
     color: white;
     text-decoration: none;
@@ -240,6 +242,11 @@ p{
     cursor: pointer;
     width: 100%;
     margin-top: 20px;
+    transition: 0.5s;
+}
+.whatsapp-button:hover{
+    transition: 0.5s;
+    box-shadow: 1px 1px 3px 1px  #4CAF50;
 }
 .area-mensagem{
     display: flex;
@@ -249,7 +256,9 @@ p{
 .contact-section p {
     font-size: 1.1em;
 }
-
+.submit{
+    cursor: pointer;
+}
 @media (max-width: 700px) {
     .container {
         flex-direction: column;
@@ -262,10 +271,21 @@ p{
         width: 100%;
         margin: 10px 0;
     }
+    .area-mensagem{
+        flex-wrap: wrap ;
+    }
+}
+@media (max-width: 440px) {
+    .navbar-content{
+        flex-wrap: wrap;
+    }
 }
 
 .assinatura-cont{
     padding: 20px;
     text-align: center;
     justify-content: center;
+}
+.assinatura{
+    display: flex;
 }
