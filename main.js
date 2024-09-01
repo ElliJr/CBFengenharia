@@ -8,8 +8,6 @@ function toggleMenu() {
     menu.style.left = '-400px'
   }
 }
-//codigo orçamento
-
 // area das imagems
 const carousel = document.querySelector('.carousel');
 const prevBtn = document.querySelector('.prev-btn');
