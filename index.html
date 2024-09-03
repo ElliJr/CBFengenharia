@@ -89,7 +89,6 @@
                 </div>
             </div>
         </section>
-
     </main>
     
     <!-- Footer -->
@@ -99,17 +98,16 @@
                 <div class="container-contato">
                     <div class="form-section">
                         <h2>SOLICITE SEU ORÇAMENTO</h2>
-                        <form action="envia_fale.php" method="post" name="form">
+                        <form action="send_email.php" method="post">
                             <input type="text" placeholder="Nome" name="nome" required>
                             <input type="text" placeholder="(DDD) Telefone/WhatsApp" name="telefone" required>
                             <input type="email" placeholder="E-mail" name="email" required>
                             <input type="text" placeholder="Cidade onde será a obra" name="cidadeObra" required>
-                            <input type="text" placeholder="Deixe uma mensagem(opcional)" name="deixarMensagem">
-                            <a href="mailto:christopher.bfs@hotmail.com.br"><input type="submit" name="submit"
-                                value="submit" class="submit"></a>
+                            <input type="text" placeholder="Deixe uma mensagem (opcional)" name="deixarMensagem">
+                            <input type="submit" name="submit" value="Enviar" class="submit">
                         </form>
                     </div>
-            
+                    
                     <div class="contact-section">
                         <h2>CONTATOS</h2>
                         <p>FALE COM A NOSSA EQUIPE</p>
@@ -122,6 +120,9 @@
                     </div>
                 </div>    
             </section>
+        </div>
+        <div class="contato">
+            <a href="mailto:christopher.bfs@hotmail.com.br?subject=Olá quero solicitar um orçamento" onclick="menuWhat()"><img src="https://static.vecteezy.com/system/resources/previews/018/930/564/original/whatsapp-logo-whatsapp-icon-whatsapp-transparent-free-png.png" width="100px" height="100px" alt=""></a>
         </div>
         <div class="assinatura-cont">
             <div class="assinatura">

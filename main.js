@@ -35,3 +35,6 @@ prevBtn.addEventListener('click', () => {
     }
 });
 
+function menuWhat(){
+  alert("Voçê está solicitando um orçamento")
+}
