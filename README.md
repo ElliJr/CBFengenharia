@@ -26,7 +26,7 @@ Uma seção que credita o desenvolvedor do site, com um link para o portfólio d
 O site é responsivo, adaptando-se a diferentes tamanhos de tela, como indicado pela presença de um botão de menu para dispositivos móveis.
 Imagens e ícones são usados para ilustrar os serviços e projetos, tornando o site visualmente atraente.
 O formulário de contato é funcional, permitindo que os usuários enviem informações diretamente pela página.
-# ----------------------------------------------------------------------------------
+# ----------------------------------------------------------------
 Este site é ideal para empresas de engenharia que desejam apresentar seus serviços e portfólio de forma profissional e acessível, além de facilitar a comunicação com clientes potenciais.
 # imagem da logo do projeto
  <img src="logo-imagem/Logo-do-projeto-menor.png">
