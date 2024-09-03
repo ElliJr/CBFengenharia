@@ -30,4 +30,4 @@ O formulário de contato é funcional, permitindo que os usuários enviem inform
  ----------------------------------------------------------------
 Este site é ideal para empresas de engenharia que desejam apresentar seus serviços e portfólio de forma profissional e acessível, além de facilitar a comunicação com clientes potenciais.
 # imagem da logo do projeto
- <img src="logo-imagem/Logo-do-projeto.png">
+ <img src="logo-imagem/Logo-Do-Projeto.png">
