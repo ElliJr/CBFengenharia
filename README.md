@@ -23,6 +23,7 @@ Detalhes de como entrar em contato com a equipe da empresa, incluindo um botão 
 Assinatura:
 Uma seção que credita o desenvolvedor do site, com um link para o portfólio do criador e uma imagem de assinatura.
 # Recursos Técnicos:
+
 O site é responsivo, adaptando-se a diferentes tamanhos de tela, como indicado pela presença de um botão de menu para dispositivos móveis.
 Imagens e ícones são usados para ilustrar os serviços e projetos, tornando o site visualmente atraente.
 O formulário de contato é funcional, permitindo que os usuários enviem informações diretamente pela página.
