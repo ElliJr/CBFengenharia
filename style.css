@@ -1,9 +1,12 @@
 /* Global Styles */
+html{
+    height: 100dvh
+}
 body {
     font-family: 'Arial', sans-serif;
     background-image: linear-gradient(45deg,rgb(202, 192, 192),#333);
     line-height: 1.6;
-    height: 100dvh
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
