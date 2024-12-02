@@ -17,9 +17,8 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
-/* Navbar Styles */
+/* Navbar Styles */ 
 .navbar {
-    background-color: #004080;
     color: #fff;
     padding: 10px 0;
     padding-bottom: 34px;
@@ -109,7 +108,7 @@ ul{
 /* Services Section */
 .services {
     padding: 50px 20px;
-    background-color: #333;
+    background-color: #1a1a1a;
 }
 
 .services {
